@@ -1,0 +1,52 @@
+<div class="contact-view">
+    <h3><%= firstName %> <%= lastName %></h3>
+    <span class="company"><%= company %></span>
+
+    <% if ( street && city && ZIP )  { %>
+    <div class="address">
+        <div class="contact-street">
+            <%= street %>
+        </div>
+        <div class="contact-state-zip">
+            <%= city %>, <%= state %> <%= ZIP %>
+        </div>
+    </div>
+    <% } %>
+
+    <% if ( phones.length ) { %>
+        <hr />
+        <div class="phones">
+            <ol>
+                <% _.each( phones, function(p) { %>
+                    <li>
+                        <span class="phone-type"><%= p.type %></span>
+                        <span class="phone-number"><%= p.number %></span>
+                    </li>
+                <% }) %>
+            </ol>
+        </div>
+    <% } %>
+
+    <% if ( emails.length ) { %>
+        <hr />
+        <div class="emails">
+            <ol>
+                <% _.each( emails, function(e) { %>
+                    <li>
+                        <span class="email-type"><%= e.type %></span>
+                        <span class="email"><%= e.email %></span>
+                    </li>
+                <% }) %>
+            </ol>
+        </div>
+    <% } %>
+
+    <hr />
+    <div class="social">
+        <% if ( twitter ) { %>
+            <div class="contact-twitter">
+                <%= twitter %>
+            </div>
+        <% } %>
+    </div>
+</div>

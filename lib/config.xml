@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        id="jqmSample">
+ 
+  <author href="http://www.appendto.com/"
+          rim:copyright="Copyright 1998-2012 appendTo, LLC">appendTo, LLC</author>
+ 
+  <name>jQuery Mobile Sample</name>
+ 
+  <description>
+    A sample application to demonstrate building jQuery Mobile applications for the BB10 WebWorks Platform.
+  </description>
+ 
+  <rim:permissions>
+    <rim:permit>access_shared</rim:permit>
+    <rim:permit>access_location_services</rim:permit>
+    <rim:permit>use_camera</rim:permit>  
+  </rim:permissions>
+ 
+  <content src="index.html" rim:allowInvokeParams="true"/>
+ 
+  <feature id="blackberry.ui.dialog"/>
+   
+  <feature id="blackberry.app">
+    <param name="backgroundColor" value="0xFFFF0000" />
+  </feature>
+ 
+  <access uri="*" subdomains="true">
+    <feature id="blackberry.app" required="true" version="1.0.0"/>
+    <feature id="blackberry.invoke" required="true" version="1.0.0"/>
+  </access>
+ 
+</widget>

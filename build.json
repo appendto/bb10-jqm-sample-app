@@ -1,0 +1,6 @@
+{
+	"dependencies": [ "anvil.zip" ],
+	"anvil.headers": {
+		"header": "fileHeader"
+	}
+}

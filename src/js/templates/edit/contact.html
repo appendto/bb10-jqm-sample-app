@@ -1,0 +1,55 @@
+<form>
+    <div data-role="fieldcontain">
+        <label for="firstName" class="select">First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="First Name"
+               data-role="bb-inputvalidator" required="required" pattern="[a-zA-Z]+"  />
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="lastName" class="select">Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name"
+            data-role="bb-inputvalidator" required="required" pattern="[a-zA-Z]+"/>
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="company" class="select">Company</label>
+        <input type="text" name="company" id="company" placeholder="Company"/>
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="street" class="select">Street</label>
+        <input type="text" name="street" id="street" placeholder="Street" value="<%= street %>" />
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="city" class="select">City</label>
+        <input type="text" name="city" id="city" placeholder="City" value="<%= city %>"/>
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="state" class="select">State</label>
+
+        <select name="state" id="state">
+        </select>
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="zip" class="select">Zip</label>
+        <input type="text" name="zip" id="zip" placeholder="Zip" value="<%= ZIP %>"/>
+    </div>
+
+    <hr />
+    <div class="contact-phones">
+        <a data-role="button" class="add-phone">Add Phone</a>
+    </div>
+
+    <hr />
+    <div class="contact-emails">
+        <a data-role="button" class="add-email">Add Email</a>
+    </div>
+
+    <div data-role="fieldcontain">
+        <label for="twitter" class="select">Twitter</label>
+        <input type="text" name="twitter" id="twitter" placeholder="Twitter" value="<%= twitter %>"/>
+    </div>
+</form>

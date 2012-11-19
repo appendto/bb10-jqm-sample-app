@@ -1,0 +1,152 @@
+.search-field {
+    display: none;
+}
+
+.contact-view  {
+  background-color: #1c1c1c;
+  font-size: 1.6em;
+  color: #c1c1c1;
+  text-shadow: none;
+}
+
+.contact-view h3 {
+  color: #d9dadb;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+/* ACTION BAR */
+
+body {
+	background: blue !important;
+}
+
+#o1.addNew img {
+	background: url(vendor/img/actionbar-sprite.png) -4px -4px no-repeat;
+}
+
+#o1.addNew:active img {
+	background-position-y: -90px;
+}
+
+#o2.search img {
+	background: url(vendor/img/actionbar-sprite.png) -90px -4px no-repeat;
+}
+
+#o2.search:active img {
+	background-position-y: -90px;
+}
+
+#editContact {
+	min-width: 0;
+	width: 81px;
+	height: 81px;
+	background: url(vendor/img/titlebar-sprite.png) -7px -4px no-repeat;
+}
+
+#editContact span {
+	display: none;
+}
+
+#editContact:active {
+	background-position-y: -91px;
+}
+
+#deleteContact, #cancelSave {
+	min-width: 0;
+	width: 81px;
+	height: 81px;
+	background: url(vendor/img/titlebar-sprite.png) -178px -4px no-repeat;
+}
+
+#deleteContact span, #cancelSave span {
+	display: none;
+}
+
+#deleteContact:active, #cancelSave:active {
+	background-position-y: -90px;
+}
+
+#saveContact {
+	min-width: 0;
+	width: 81px;
+	height: 81px;
+	background: url(vendor/img/titlebar-sprite.png) -90px -4px no-repeat;
+}
+
+#saveContact span {
+	display: none;
+}
+
+#saveContact:active {
+	background-position-y: -90px;
+}
+
+.ui-field-contain.ui-body.ui-br{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+.ui-field-contain.ui-body.ui-br label {
+	float: left;
+	width: 30%;
+	margin-top: 15px;
+}
+
+.ui-field-contain.ui-body.ui-br input {
+	float: left;
+	width: 60%;
+}
+
+.bb-text-validator {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ui-page {
+	color: #C1C1C1;
+	background: #1c1c1c;
+}
+
+.ui-li-divider.ui-bar-b {
+	padding-top: 10px;
+}
+
+a.ui-link-inherit span {
+	color: #c1c1c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
