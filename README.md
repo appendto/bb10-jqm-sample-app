@@ -305,7 +305,7 @@ $( document ).bind( "mobileinit", function () {
 });
 ```
 
-This disables some of the default ajax functionallity of jQuery Mobile so that Backbone can take over. It does all this by attaching to the `mobileinit` event which jQuery Mobile fires when it's ready. Then there's the `pagehide` event which ensures that when a page is loaded, the current page is removed from the DOM.
+This disables some of the default ajax functionallity of jQuery Mobile so that Backbone can take over. It does all this by attaching to the `mobileinit` event which jQuery Mobile fires when it's ready. Then there's the `pagehide` event which ensures that when a page is loaded, the current page is removed from the DOM. The jQuery Mobile team recently added a page to their docs on writing jQuery Mobile with BackBone.js, you can [read more here](http://jquerymobile.com/test/docs/pages/backbone-require.html).
 
 The above code disables much of jQuery Mobile's Ajax functionallity to allow Backbone's Router to work.
 
